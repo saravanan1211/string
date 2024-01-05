@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+   
+    <div id="container">
+       <label for="txtNum1">Number1:</label><br/>
+       <input type="text" id="txtNum1" value="0" style="border: 2px solid red;"><br/>
+       <label for="txtNum2">Number2:</label><br/>
+       <input type="text" id="txtNum2" value="0" style="border: 2px solid red;"><br/><br>
+      
+       <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          arthimetic operators
+        </button>
+        <ul class="dropdown-menu" >
+          <li><a class="dropdown-item" id="ser" onclick="add()" href="#">Add</a></li>
+          <li><a class="dropdown-item" onclick="sub()" href="#">sub</a></li>
+          <li><a class="dropdown-item" onclick="multiplication()" href="#">multiply</a></li>
+          <li><a class="dropdown-item" onclick="division()" href="#">division</a></li>
+        </ul>
+      
+      </div>
+      <div class="con">
+        <label for="Num1">enter the words:</label><br/>
+        <input type="text" id="Num1"  style="border: 2px solid red;"><br/>
+        <label for="Num2">enter the value1:</label><br/>
+        <input type="text" id="startval" style="border: 2px solid red;"><br/><br>
+        <label for="Num3">enter the value2:</label><br/>
+        <input type="text" id="endval" style="border: 2px solid red;"><br/><br>
+        <h1 id="res"></h1>
+       
+        <div class="dropdown">
+         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+           strings
+         </button>
+         
+         <ul class="dropdown-menu" >
+           <li><a class="dropdown-item"  onclick="one()" href="#">length</a></li>
+           <li><a class="dropdown-item" onclick="two()" href="#">charat</a></li>
+           <li><a class="dropdown-item" onclick="three()" href="#">chatcodeat</a></li>
+           <li><a class="dropdown-item" onclick="four()" href="#">string at</a></li>
+           <li><a class="dropdown-item"  onclick="five()" href="#">string</a></li>
+           <li><a class="dropdown-item" onclick="six()" href="#">string slice</a></li>
+           <li><a class="dropdown-item" onclick="seven()" href="#">substring</a></li>
+           <li><a class="dropdown-item" onclick="eight()" href="#">substr</a></li>
+           <li><a class="dropdown-item"  onclick="nine()" href="#">string to uppercase</a></li>
+           <li><a class="dropdown-item" onclick="ten()" href="#">string to lowercase</a></li>
+           <li><a class="dropdown-item" onclick="eleven()" href="#">concat</a></li>
+           <li><a class="dropdown-item" onclick="twele()" href="#">trim</a></li>
+           <li><a class="dropdown-item"  onclick="thirteen()" href="#">trimstart</a></li>
+           <li><a class="dropdown-item" onclick="fourteen()" href="#">trimend</a></li>
+           <li><a class="dropdown-item" onclick="fifteen()" href="#">padstart</a></li>
+           <li><a class="dropdown-item" onclick="sixteen()" href="#">padend</a></li>
+           <li><a class="dropdown-item"  onclick="seventeen()" href="#">repeat</a></li>
+           <li><a class="dropdown-item" onclick="eighteen()" href="#">replace</a></li>
+           <li><a class="dropdown-item" onclick="nineteen()" href="#">replaceall</a></li>
+           <li><a class="dropdown-item" onclick="twenty()" href="#">split</a></li>
+         </ul>
+
+      </div>
+    
+
+  
+    
+      
+    
+
+   
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
